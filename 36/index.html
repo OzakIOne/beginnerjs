@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TOS Reading</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="tabs">
+        <div role="tablist" aria-label="Programming Languages">
+          <button role="tab" aria-selected="true" id="js">JavaScript</button>
+          <button role="tab" aria-selected="false" id="Rust">Rust</button>
+          <button role="tab" aria-selected="false" id="php">PHP</button>
+        </div>
+        <div role="tabpanel" aria-labelledby="js">
+          <p>JavaScript is great!</p>
+        </div>
+        <div role="tabpanel" aria-labelledby="Rust" hidden>
+          <p>Rust is awesome</p>
+        </div>
+        <div role="tabpanel" aria-labelledby="php" hidden>
+          <p>PHP sucks</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

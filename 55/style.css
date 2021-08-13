@@ -1,0 +1,21 @@
+html,
+body {
+  height: 100%;
+}
+
+.wrap {
+  position: relative;
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap > * {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.face {
+  position: absolute;
+}
